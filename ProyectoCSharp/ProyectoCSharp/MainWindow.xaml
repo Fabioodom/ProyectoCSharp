@@ -1,0 +1,16 @@
+﻿<Window x:Class="ProyectoCSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoCSharp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="DarkTurquoise">
+    <Grid>
+        <TextBox x:Name="txtEditor" Margin="25,80,494,101" TextChanged="txtEditor_TextChanged"/>
+        <TextBox x:Name="txtEditor2" Margin="467,80,52,101" TextChanged="txtEditor2_TextChanged"/>
+        <Label Content="Abrir-Guardar" Grid.Row="0" Grid.Column="0" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Margin="25,10,611,370"/>
+        <Button x:Name="BDiag2_Click" Click="Boton6_Click"  Content="Abrir Archivo"   FontSize="22" Margin="75,323,571,55"/>
+        <Button x:Name="Boton7" Click="Boton7_Click"  Content="Guardar Archivo"   FontSize="22" Margin="559,323,52,53"/>
+    </Grid>
+</Window>
